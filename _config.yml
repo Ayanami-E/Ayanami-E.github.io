@@ -1,50 +1,35 @@
 # --------------------------------------------------
 #  BASIC SITE INFO
 # --------------------------------------------------
-title: Hanlin Cai   # Main site title (appears in browser tab & RSS)
-tagline: Here is personal website of Hanlin Cai. Powered by Jekyll, based on the Minimal Mistakes theme.  # Optional short tagline, used by some layouts
-description: Here is personal website of Hanlin Cai, PhD Student at the University of Cambridge.  # Strongly recommended for SEO & social cards
+title: Peizhou Huang
+tagline: Personal website of Peizhou Huang. Powered by Jekyll, based on the Minimal Mistakes theme.
+description: Personal website of Peizhou Huang, MEng student in EECS at the University of Michigan, working on multimodal agents.
 
-# TIP ── For local development you can comment out `url`
-# and build with relative paths. In production you want this set.
-url: https://caihanlin.com
+url: https://ayanami-e.github.io
 
 # --------------------------------------------------
 #  AUTHOR / PROFILE DATA
 # --------------------------------------------------
 owner:
-  name: Hanlin Cai
-  avatar: cam_logo.png   # 剑桥校徽（正方形）
-  # bio: Dream big, stay positive, work hard, and enjoy the journey.
-  email: hc663@cam.ac.uk
-  # cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
+  name: Peizhou Huang
+  avatar: photo.jpg          # 把头像（正方形）放进 images/ 目录，命名 photo.jpg
+  email: chimiyuzhe@gmail.com
+  # cv: https://ayanami-e.github.io/file/CV.pdf
 
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: lancecai2002
-  github: GuangLun2000
-  linkedin: hanlincai
-  scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
-  researchgate: https://www.researchgate.net/profile/Hanlin-Cai
-  zhihu: https://www.zhihu.com/people/chlire
-  xiaohongshu: 5c27848f0000000005030c6f
-  instagram: lancecai2002
-  bilibili: 594030035
-  # facebook: caihanlin2002
-  # lastfm:
-  # tumblr:
-
+  github: Ayanami-E
+  linkedin: peizhou-huang-6114b5383
+  scholar: https://scholar.google.com/citations?user=LHMe_2cAAAAJ&hl=en
+  xiaohongshu: 6768460389
 
 # --------------------------------------------------
 #  SEARCH-ENGINE VERIFICATION & ANALYTICS
 # --------------------------------------------------
-google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
-# bing_verify: ""    # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-google_analytics: "G-T5N5JY1E21"                                 # GA-4 measurement ID (used by _includes/gtag.html)
-
+# 原作者的统计 ID 已删除，避免你的流量进他账号
+# google_verify: ""
+# google_analytics: ""
 
 # --------------------------------------------------
 #  TOP NAVIGATION BAR
-#  `external: true` opens the link in a new tab.
 # --------------------------------------------------
 links:
   - title: About Me
@@ -55,32 +40,21 @@ links:
     url: /services/
   - title: Awards
     url: /awards/
-  - title: Hobbies
-    url: /hobbies/
-  - title: Blogs
-    url: /blogs/
-  - title: 中文
-    url: /cn/
-
 
 # --------------------------------------------------
 #  BUILD & RENDERING OPTIONS
 # --------------------------------------------------
-timezone: Asia/Shanghai          # IANA time-zone ID (China/Beijing is invalid)
-future: true                     # Render posts dated in the future
-highlighter: rouge               # Code highlighter; Rouge is default in MM
-# markdown: kramdown             # Jekyll default; uncomment to force
-# pygments: true                 # Legacy option (Rouge supersedes this)
-
+timezone: America/Detroit
+future: true
+highlighter: rouge
 
 # --------------------------------------------------
 #  PERMALINK STRUCTURE
 # --------------------------------------------------
-permalink: /:categories/:title    # e.g. /tech/my-post/
-
+permalink: /:categories/:title
 
 # --------------------------------------------------
-#  KRAMDOWN (Markdown engine) SETTINGS
+#  KRAMDOWN SETTINGS
 # --------------------------------------------------
 kramdown:
   auto_ids: true
@@ -89,30 +63,18 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-  # coderay:
-  #   coderay_line_numbers:
-  #   coderay_line_numbers_start: 1
-  #   coderay_tab_width: 4
-  #   coderay_bold_every: 10
-  #   coderay_css: class
-
-
 # --------------------------------------------------
 #  DISQUS COMMENT SYSTEM
 # --------------------------------------------------
-disqus:
-  shortname: lancecai
-
-
-# include: [".htaccess"]
-# exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
+# disqus:
+#   shortname:
 
 # --------------------------------------------------
 #  INCLUDE / EXCLUDE Lists
 # --------------------------------------------------
-include: [".htaccess"]           # Files to force-include in the build
-exclude:                         # Folders/files ignored during build
-  - "backup"                     # Old drafts & duplicate permalinks; do not publish (no static assets here — use /images/ or site root)
+include: [".htaccess"]
+exclude:
+  - "backup"
   - "lib"
   - "config.rb"
   - "Capfile"
@@ -125,13 +87,9 @@ exclude:                         # Folders/files ignored during build
   - "minimal-mistakes.sublime-project"
   - "minimal-mistakes.sublime-workspace"
 
-
 # --------------------------------------------------
-#  OPTIONAL PLUG-INS (uncomment once gems are added)
+#  PLUG-INS
 # --------------------------------------------------
 plugins:
-  - jekyll-feed          # Auto-generate RSS feed
-  - jekyll-sitemap       # Auto-generate sitemap.xml
-#   - jekyll-picture-tag   # Responsive images & WebP/AVIF
-  # - jekyll-archives      # Year/month archive pages
-
+  - jekyll-feed
+  - jekyll-sitemap
