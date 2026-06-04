@@ -10,7 +10,7 @@ layout: page
 
 <br>I am a MEng student in [Electrical and Computer Engineering](https://ece.engin.umich.edu/) at the **University of Michigan**. My research focuses on **multimodal agents**.
 
-<br>Prior to UMich, I received my B.S. from Hebei University of Technology (HEBUT) and B.E. from LUT University.
+<br>Prior to UMich, I received my B.S. from Hebei University of Technology (HEBUT) and B.E. from LUT University, Finland.
 
 <br>I am always open to academic discussions and potential collaborations. Please feel free to reach out to me at **chimiyuzhe@gmail.com**
 
