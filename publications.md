@@ -24,6 +24,6 @@ title: Publications
 
 - HEAL-KGGen: A Hierarchical Multi-Agent LLM Framework with Knowledge Graph Enhancement for Genetic Biomarker-Based Medical Diagnosis<br>Kun Zuo, Zixuan Zhong, **Peizhou Huang**, Shuo Tang, Yu Chen, Yi Jiang.<br>*bioRxiv*, 2025.<br>
 
-- Does Semantic Noise Initialization Transfer from Images to Videos? A Paired Diagnostic Study<br>Yixiao Jing, Chaoyu Zhang, Zixuan Zhong, **Peizhou Huang**.<br>Proceedings of the ICLR 2026 Workshop on Multimodal Intelligence: Next Token Prediction & Beyond.<br>Singapore. April, 2026.<br>
+- Does Semantic Noise Initialization Transfer from Images to Videos? A Paired Diagnostic Study<br>Yixiao Jing, Chaoyu Zhang, Zixuan Zhong, **Peizhou Huang**.<br>Proceedings of the ICLR 2026 Workshop on Multimodal Intelligence: Next Token Prediction & Beyond.<br>Rio de Janeiro, Brazil. April, 2026.<br>
 
 <br>
