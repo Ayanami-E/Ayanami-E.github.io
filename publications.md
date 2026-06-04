@@ -18,7 +18,7 @@ title: Publications
 
 ## Collaborations
 
-- [DSDR: Dual-Scale Diversity Regularization for Exploration in LLM Reasoning](https://arxiv.org/abs/2602.19895)<br>Zhenyu Wan, Yang Shen, Zhicheng Dou, Dong Zhou, Yu Zhang, Xin Wang, Hao Shen, Jie Xiong, Chao Tao, ..., **Peizhou Huang**.<br>*arXiv preprint*, 2026.<br>
+- [DSDR: Dual-Scale Diversity Regularization for Exploration in LLM Reasoning](https://arxiv.org/abs/2602.19895)<br>Zhongwei Wan, Yun Shen, Zhihao Dou, Donghao Zhou, Yu Zhang, Xin Wang, Hui Shen, Jing Xiong, Chaofan Tao, Zixuan Zhong, **Peizhou Huang**, Mi Zhang.<br>*arXiv preprint*, 2026.<br>
 
 - [SkillEvolBench: Benchmarking the Evolution from Episodic Experience to Procedural Skills](https://arxiv.org/abs/2605.24117)<br>Yang Lei, Zhenyu Wan, Jie Zhang, Shahriar Alam, Zixuan Zhong, **Peizhou Huang**, Xin Wang, Jun Zhang, et al.<br>*arXiv preprint*, 2026.<br>
 
