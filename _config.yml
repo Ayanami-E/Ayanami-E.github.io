@@ -12,7 +12,7 @@ url: https://ayanami-e.github.io
 # --------------------------------------------------
 owner:
   name: Peizhou Huang
-  avatar: photo.jpg          # 把头像（正方形）放进 images/ 目录，命名 photo.jpg
+  avatar: photo.png          # 把头像（正方形）放进 images/ 目录，命名 photo.jpg
   email: chimiyuzhe@gmail.com
   # cv: https://ayanami-e.github.io/file/CV.pdf
 
@@ -36,10 +36,6 @@ links:
     url: /
   - title: Publications
     url: /publications/
-  - title: Services
-    url: /services/
-  - title: Awards
-    url: /awards/
 
 # --------------------------------------------------
 #  BUILD & RENDERING OPTIONS
