@@ -19,7 +19,7 @@ layout: page
 ## Research Interests
 
 - Multimodal Agents
-- Large Language Models
+- Vision Language Models
 
 ---
 
