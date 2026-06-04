@@ -12,7 +12,7 @@ layout: page
 
 <br>Prior to UMich, I received my B.S. from Hebei University of Technology (HEBUT) and B.E. from LUT University.
 
-<br>I am always open to academic discussions and potential collaborations. Please feel free to reach out to me at **chimiyuzhe [at] gmail.com**
+<br>I am always open to academic discussions and potential collaborations. Please feel free to reach out to me at **chimiyuzhe@gmail.com**
 
 ---
 
