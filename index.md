@@ -6,9 +6,9 @@ layout: page
 
 <img src="{{ "/photo.png" | relative_url }}" class="floatpic" alt="Peizhou Huang">
 
-<br>Here is **Peizhou Huang** (黄沛洲).<br>
+<br>Here is **Peizhou Huang** (黄培洲).<br>
 
-<br>I am a MEng student in [Electrical Engineering and Computer Science](https://eecs.engin.umich.edu/) at the **University of Michigan**. My research focuses on **multimodal agents**.
+<br>I am a MEng student in [Electrical and Computer Engineering](https://ece.engin.umich.edu/) at the **University of Michigan**. My research focuses on **multimodal agents**.
 
 <br>Prior to UMich, I received my B.S. from Hebei University of Technology (HEBUT) and B.E. from LUT University.
 
