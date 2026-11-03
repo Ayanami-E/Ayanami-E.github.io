@@ -21,6 +21,7 @@ body { color: #333333; }
 .article-wrap .publication-figure img { display: block; width: 100%; max-width: 100%; height: auto; margin: 0; padding: 0; background: white; border: 0; box-shadow: none; }
 .article-wrap .publication-figure figcaption { font-size: .72rem; line-height: 1.6; color: #666666; margin-top: .6rem; text-align: left; }
 .article-wrap .publication-figure figcaption a { color: var(--research-link); }
+.article-wrap .publication-figure figcaption::before { content: none; }
 .article-wrap .all-publications { margin: 1.25rem 0 2rem; text-indent: 0; }
 .article-author-top .bio-photo { border-radius: 8px; }
 a:focus-visible { outline: 2px solid var(--research-accent); outline-offset: 4px; }
