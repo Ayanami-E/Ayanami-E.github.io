@@ -1,0 +1,13 @@
+<section class="publication" id="{{ include.paper.id }}">
+  <p class="publication-meta">{{ include.paper.venue }} · {{ include.paper.year }}</p>
+  <h3><a href="{{ include.paper.url }}">{{ include.paper.title }}</a></h3>
+  <p class="publication-authors">{{ include.paper.authors }}</p>
+  <p class="publication-summary">{{ include.paper.summary }}</p>
+  <div class="publication-links" aria-label="Resources for {{ include.paper.title | escape }}">
+    {% for resource in include.paper.links %}<a href="{{ resource.url }}">{{ resource.label }} <span aria-hidden="true">↗</span></a>{% endfor %}
+  </div>
+  <figure class="publication-figure">
+    <a href="{{ include.paper.figure_source }}"><img src="{{ include.paper.image | relative_url }}" alt="{{ include.paper.image_alt | escape }}" width="{{ include.paper.image_width }}" height="{{ include.paper.image_height }}" loading="lazy" decoding="async"></a>
+    <figcaption>{{ include.paper.caption }} · <a href="{{ include.paper.figure_source }}">View source <span aria-hidden="true">↗</span></a></figcaption>
+  </figure>
+</section>

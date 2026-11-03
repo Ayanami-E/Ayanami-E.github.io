@@ -1,0 +1,33 @@
+/* Monochrome styling within the existing academic layout. */
+:root { --research-link: #303030; --research-accent: #555555; --research-ink: #222222; --research-rule: #dddddd; }
+body { color: #333333; }
+.article-wrap a, .article-wrap a:visited, .article-author-top a, .article-author-top a:visited { color: var(--research-link); }
+.article-wrap a:hover, .article-author-top a:hover { color: var(--research-accent); }
+.site-name a, .site-name a:visited { color: var(--research-ink); }
+.top-navigation a.top-navigation-current { color: var(--research-accent); border-bottom: 2px solid var(--research-accent); }
+.article-wrap h2 { color: var(--research-ink); border-bottom: 2px solid var(--research-accent); padding-bottom: .35em; }
+.article-wrap .publication { padding: 1.35rem 0 1.75rem; border-bottom: 1px solid var(--research-rule); clear: both; }
+.article-wrap .publication:first-of-type { padding-top: .5rem; }
+.article-wrap .publication h3 { font-size: 1.3rem; line-height: 1.4; margin: .3rem 0 .65rem; }
+.article-wrap .publication h3 a { border: 0; }
+.article-wrap .publication p { margin: 0 0 .7rem; text-indent: 0; }
+.article-wrap .publication .publication-meta { color: var(--research-accent); font: 700 .78rem/1.5 'PT Sans Narrow', sans-serif; letter-spacing: .04em; }
+.article-wrap .publication-authors { font-size: .85rem; line-height: 1.65; color: #666666; }
+.article-wrap .publication-summary { font-size: .95rem; }
+.publication-links { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; margin: .85rem 0; }
+.article-wrap .publication-links a { font-size: .85rem; font-weight: 700; border: 0; border-bottom: 2px solid var(--research-accent); padding: .15rem 0; }
+.article-wrap .publication-figure { width: 100%; margin: 1.2rem 0 0; }
+.article-wrap .publication-figure > a { display: block; border: 0; }
+.article-wrap .publication-figure img { display: block; width: 100%; max-width: 100%; height: auto; margin: 0; padding: 0; background: white; border: 0; box-shadow: none; }
+.article-wrap .publication-figure figcaption { font-size: .72rem; line-height: 1.6; color: #666666; margin-top: .6rem; text-align: left; }
+.article-wrap .publication-figure figcaption a { color: var(--research-link); }
+.article-wrap .all-publications { margin: 1.25rem 0 2rem; text-indent: 0; }
+.article-author-top .bio-photo { border-radius: 8px; }
+a:focus-visible { outline: 2px solid var(--research-accent); outline-offset: 4px; }
+@media (max-width: 599px) {
+  .article-wrap .publication h3 { font-size: 1.15rem; }
+  .publication-links { gap: .6rem 1rem; }
+  .article-wrap .publication-links a { padding: .5rem .1rem; }
+  .article-wrap .publication-figure figcaption { font-size: .8rem; }
+}
+

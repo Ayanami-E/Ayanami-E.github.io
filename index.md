@@ -26,3 +26,15 @@ layout: page
 ## News and Updates
 
 - **Jun 2026**: Personal website is online!
+
+---
+
+## Selected Research
+
+{% for paper in site.data.publications %}
+{% if paper.featured %}
+{% include publication.html paper=paper %}
+{% endif %}
+{% endfor %}
+
+<p class="all-publications"><a href="{{ '/publications/' | relative_url }}">View all publications →</a></p>

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "mmdr",
+    "title": "MMDeepResearch-Bench: A Benchmark for Multimodal Deep Research Agents",
+    "authors": "<strong>Peizhou Huang</strong>, Zixuan Zhong, Zhongwei Wan, Donghao Zhou, Samiul Alam, Xin Wang, Zexin Li, Zhihao Dou, Li Zhu, et al",
+    "group": "lead",
+    "featured": true,
+    "url": "https://arxiv.org/abs/2601.12346",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "summary": "Evaluating whether multimodal research agents connect visual evidence to sourced claims in long-form reports.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2601.12346"
+      },
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2601.12346"
+      }
+    ],
+    "image": "/images/publications/mmdr.jpg",
+    "image_width": 934,
+    "image_height": 810,
+    "image_alt": "Figure 5. MMDR-Bench evaluation pipeline.",
+    "caption": "Figure 5. MMDR-Bench evaluation pipeline.",
+    "figure_source": "https://arxiv.org/pdf/2601.12346#page=5"
+  },
+  {
+    "id": "derain",
+    "title": "Learning a Closed-Loop Bidirectional Scale-Recurrent Network for Image Deraining",
+    "authors": "<strong>Peizhou Huang</strong>, Zixuan Zhong, Pengjie Wang, Xiangyu Wang, Xiang Chen",
+    "group": "lead",
+    "featured": false,
+    "url": "https://doi.org/10.3233/FAIA240474",
+    "year": 2024,
+    "venue": "ECAI",
+    "summary": "A closed-loop bidirectional scale-recurrent network for image deraining, combining Transformer and MLP models.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.3233/FAIA240474"
+      }
+    ],
+    "image": "/images/publications/derain.jpg",
+    "image_width": 1030,
+    "image_height": 480,
+    "image_alt": "Figure 1. Overall architecture of CBS-Net.",
+    "caption": "Figure 1. Overall architecture of CBS-Net.",
+    "figure_source": "https://doi.org/10.3233/FAIA240474"
+  },
+  {
+    "id": "thesis",
+    "title": "Emotion Recognition Based on Graph Convolutional Networks and EEG Signals",
+    "authors": "<strong>Peizhou Huang</strong>",
+    "group": "lead",
+    "featured": false,
+    "url": "https://lutpub.lut.fi/handle/10024/169337",
+    "year": 2025,
+    "venue": "Undergraduate Thesis",
+    "summary": "EEG-based emotion recognition with channel-band attention and a multi-scale graph neural network.",
+    "links": [
+      {
+        "label": "Thesis",
+        "url": "https://lutpub.lut.fi/handle/10024/169337"
+      }
+    ],
+    "image": "/images/publications/thesis.png",
+    "image_width": 936,
+    "image_height": 296,
+    "image_alt": "CBAM-GNN architecture. Figure provided by the author.",
+    "caption": "CBAM-GNN architecture. Figure provided by the author.",
+    "figure_source": "https://lutpub.lut.fi/handle/10024/169337"
+  },
+  {
+    "id": "dsdr",
+    "title": "DSDR: Dual-Scale Diversity Regularization for Exploration in LLM Reasoning",
+    "authors": "Zhongwei Wan, Yun Shen, Zhihao Dou, Donghao Zhou, Yu Zhang, Xin Wang, Hui Shen, Jing Xiong, Chaofan Tao, Zixuan Zhong, <strong>Peizhou Huang</strong>, Mi Zhang",
+    "group": "collaboration",
+    "featured": false,
+    "url": "https://arxiv.org/abs/2602.19895",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "summary": "Dual-scale diversity regularization for exploration in large language model reasoning.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2602.19895"
+      },
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2602.19895"
+      }
+    ],
+    "image": "/images/publications/dsdr.jpg",
+    "image_width": 990,
+    "image_height": 200,
+    "image_alt": "Figure 1. Global-to-local exploration.",
+    "caption": "Figure 1. Global-to-local exploration.",
+    "figure_source": "https://arxiv.org/pdf/2602.19895#page=2"
+  },
+  {
+    "id": "skill",
+    "title": "SkillEvolBench: Benchmarking the Evolution from Episodic Experience to Procedural Skills",
+    "authors": "Yingtie Lei, Zhongwei Wan, Jiankun Zhang, Samiul Alam, Zixuan Zhong, <strong>Peizhou Huang</strong>, Xin Wang, Jingxuan Zhang, et al",
+    "group": "collaboration",
+    "featured": false,
+    "url": "https://arxiv.org/abs/2605.24117",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "summary": "Evaluating how episodic agent experience evolves into reusable procedural skills.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2605.24117"
+      },
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2605.24117"
+      }
+    ],
+    "image": "/images/publications/skill.jpg",
+    "image_width": 948,
+    "image_height": 348,
+    "image_alt": "Figure 3. SkillEvolBench evaluation protocol.",
+    "caption": "Figure 3. SkillEvolBench evaluation protocol.",
+    "figure_source": "https://arxiv.org/pdf/2605.24117#page=5"
+  },
+  {
+    "id": "heal",
+    "title": "HEAL-KGGen: A Hierarchical Multi-Agent LLM Framework with Knowledge Graph Enhancement for Genetic Biomarker-Based Medical Diagnosis",
+    "authors": "Kun Zuo, Zixuan Zhong, <strong>Peizhou Huang</strong>, Shuo Tang, Yu Chen, Yi Jiang",
+    "group": "collaboration",
+    "featured": false,
+    "url": "https://doi.org/10.1101/2025.06.03.657521",
+    "year": 2025,
+    "venue": "bioRxiv",
+    "summary": "A hierarchical multi-agent framework enhanced by a medical knowledge graph for genetic biomarker-based diagnosis.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1101/2025.06.03.657521"
+      },
+      {
+        "label": "PDF",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657521v1.full.pdf"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/Ayanami-E/HEAL-KGGen"
+      }
+    ],
+    "image": "/images/publications/heal.jpg",
+    "image_width": 1010,
+    "image_height": 660,
+    "image_alt": "Figure 1. Overall workflow of HEAL-KGGen.",
+    "caption": "Figure 1. Overall workflow of HEAL-KGGen.",
+    "figure_source": "https://www.biorxiv.org/content/10.1101/2025.06.03.657521v1.full.pdf#page=5"
+  },
+  {
+    "id": "semantic",
+    "title": "Does Semantic Noise Initialization Transfer from Images to Videos? A Paired Diagnostic Study",
+    "authors": "Yixiao Jing, Chaoyu Zhang, Zixuan Zhong, <strong>Peizhou Huang</strong>",
+    "group": "collaboration",
+    "featured": false,
+    "url": "https://arxiv.org/abs/2603.06672",
+    "year": 2026,
+    "venue": "ICLR Workshop on Multimodal Intelligence",
+    "summary": "A paired diagnostic study of transferring semantic noise initialization from image generation to video generation.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2603.06672"
+      },
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2603.06672"
+      }
+    ],
+    "image": "/images/publications/semantic.jpg",
+    "image_width": 800,
+    "image_height": 406,
+    "image_alt": "Figure 1. Qualitative video comparison; paired columns show baseline and NPNet initialization.",
+    "caption": "Figure 1. Qualitative video comparison; paired columns show baseline and NPNet initialization.",
+    "figure_source": "https://arxiv.org/pdf/2603.06672#page=6"
+  }
+]

@@ -2,28 +2,21 @@
 layout: page
 permalink: /publications/index.html
 title: Publications
+description: Publications by Peizhou Huang on multimodal agents, reasoning, and computer vision.
 ---
 
 ## First-Author & Lead Work
 
-- [MMDeepResearch-Bench: A Benchmark for Multimodal Deep Research Agents](https://arxiv.org/abs/2601.12346)<br>**Peizhou Huang**, Zixuan Zhong, Zhongwei Wan, Donghao Zhou, Samiul Alam, Xin Wang, Zexin Li, Zhihao Dou, Li Zhu, et al.<br>*arXiv preprint*, 2026.<br>
-
-- [Learning a Closed-Loop Bidirectional Scale-Recurrent Network for Image Deraining](https://ebooks.iospress.nl/doi/10.3233/FAIA240468)<br>**Peizhou Huang**, Zixuan Zhong, Peng Wang, Xin Wang, Xiang Chen.<br>Proceedings of the 27th European Conference on Artificial Intelligence (ECAI).<br>Santiago de Compostela, Spain. October, 2024.<br>
-
-- Emotion Recognition Based on Graph Convolutional Networks and EEG Signals<br>**Peizhou Huang**.<br>*Undergraduate Thesis*, 2025.<br>
-
-<br>
-
----
+{% for paper in site.data.publications %}
+{% if paper.group == 'lead' %}
+{% include publication.html paper=paper %}
+{% endif %}
+{% endfor %}
 
 ## Collaborations
 
-- [DSDR: Dual-Scale Diversity Regularization for Exploration in LLM Reasoning](https://arxiv.org/abs/2602.19895)<br>Zhongwei Wan, Yun Shen, Zhihao Dou, Donghao Zhou, Yu Zhang, Xin Wang, Hui Shen, Jing Xiong, Chaofan Tao, Zixuan Zhong, **Peizhou Huang**, Mi Zhang.<br>*arXiv preprint*, 2026.<br>
-
-- [SkillEvolBench: Benchmarking the Evolution from Episodic Experience to Procedural Skills](https://arxiv.org/abs/2605.24117)<br>Yingtie Lei, Zhongwei Wan, Jiankun Zhang, Samiul Alam, Zixuan Zhong, **Peizhou Huang**, Xin Wang, Jingxuan Zhang, et al.<br>*arXiv preprint*, 2026.<br>
-
-- HEAL-KGGen: A Hierarchical Multi-Agent LLM Framework with Knowledge Graph Enhancement for Genetic Biomarker-Based Medical Diagnosis<br>Kun Zuo, Zixuan Zhong, **Peizhou Huang**, Shuo Tang, Yu Chen, Yi Jiang.<br>*bioRxiv*, 2025.<br>
-
-- Does Semantic Noise Initialization Transfer from Images to Videos? A Paired Diagnostic Study<br>Yixiao Jing, Chaoyu Zhang, Zixuan Zhong, **Peizhou Huang**.<br>Proceedings of the ICLR 2026 Workshop on Multimodal Intelligence: Next Token Prediction & Beyond.<br>Rio de Janeiro, Brazil. April, 2026.<br>
-
-<br>
+{% for paper in site.data.publications %}
+{% if paper.group == 'collaboration' %}
+{% include publication.html paper=paper %}
+{% endif %}
+{% endfor %}
