@@ -38,3 +38,10 @@ layout: page
 {% endfor %}
 
 <p class="all-publications"><a href="{{ '/publications/' | relative_url }}">View all publications →</a></p>
+
+---
+
+## Academic Service
+
+- **Reviewer**, IEEE ICASSP 2027
+- **Reviewer**, ICLR 2026 Workshop on Multimodal Intelligence: Next Token Prediction & Beyond
